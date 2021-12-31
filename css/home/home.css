@@ -44,7 +44,7 @@ header{
     gap:20px;}
 
 .item-navegacao{
-    color:var(--color);
+    color:var(--cor-principal);
     text-transform: uppercase;
     text-decoration: none;}
 
@@ -60,15 +60,24 @@ header{
     height: 20px;
     background-image: linear-gradient(var(--azul-3), var(--azul-1));}
 
-@media (max-width:600px){
+.logo:hover,.item-navegacao:hover,.item-redes:hover{
+    --cor-principal:var(--salmao-1);
+}
+
+
+    @media (max-width:600px){
 
     .barra-topo{
         grid-template-columns: 1fr;
     }
 
 }
-@media (max-width:600px){
+@media (max-width:400px){
     header{
         font-size: 12px;
+    }
+    .barra-topo{
+        display: flex;
+        flex-wrap: wrap;
     }
 }
