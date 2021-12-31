@@ -1,0 +1,55 @@
+*{
+    margin:0px;
+    padding:0px;}
+@font-face {
+    font-family:roboto-medium;
+    src: url(/font/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family:roboto-regular;
+    src: url(/font/Roboto-Regular.ttf);
+}
+
+:root{
+    --azul-1:#0B3954 ;
+    --azul-2:#BFD7EA ;
+    --salmao-1:#ff6663 ;
+    --salmao-2:#fd5754 ;
+    --verde-1:#e0ff4f ;
+    --color:#fefffe ;
+}
+
+body{
+    background: var(--azul-1);
+    color:var(--color);
+    font-family: roboto-medium;
+}
+.barra-topo{
+    background: var(--salmao-1);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    place-items: center;
+}
+.navegacao{
+    list-style-type: none;
+    display: flex;
+    gap:20px;
+}
+.item-navegacao{
+    color:var(--color);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.redes{
+    display: flex;
+    gap:20px;
+    list-style-type: none;
+    align-items: center;
+}
+.gradient{
+    width: 100%;
+    box-sizing: border-box;
+    height: 20px;
+    background-image: linear-gradient(var(--salmao-1), var(--azul-1));
+}
