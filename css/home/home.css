@@ -13,6 +13,7 @@
 :root{
     --azul-1:#0B3954 ;
     --azul-2:#BFD7EA ;
+    --azul-3:#092b3f ;
     --salmao-1:#ff6663 ;
     --salmao-2:#fd5754 ;
     --verde-1:#e0ff4f ;
@@ -25,7 +26,7 @@ body{
     font-family: roboto-medium;
 }
 .barra-topo{
-    background: var(--salmao-1);
+    background: var(--azul-3);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-content: center;
@@ -51,5 +52,5 @@ body{
     width: 100%;
     box-sizing: border-box;
     height: 20px;
-    background-image: linear-gradient(var(--salmao-1), var(--azul-1));
+    background-image: linear-gradient(var(--azul-3), var(--azul-1));
 }
