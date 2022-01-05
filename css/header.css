@@ -32,11 +32,14 @@ header{
     box-sizing: border-box;
     height: 20px;
     background-image: linear-gradient(var(--azul-3), var(--azul-1));}
-
+.logo{
+    padding: 5px 0px;
+}
 .logo:hover,.item-navegacao:hover,.item-redes:hover{
     --cor-principal:var(--salmao-1);}
 
-@media (max-width:600px){
+
+@media (max-width:700px){
     .barra-topo{
         grid-template-columns: 1fr;}}
         
