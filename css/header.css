@@ -33,7 +33,8 @@ header{
     width: 100%;
     box-sizing: border-box;
     height: 20px;
-    background-image: linear-gradient(var(--azul-3), var(--azul-1));}
+    background-image: linear-gradient(var(--azul-3), var(--azul-1));
+    }
 .logo{
     padding: 5px 0px;
 }
@@ -49,6 +50,8 @@ header{
 @media (max-width:400px){
     header{
         font-size: 12px;}
-    .barra-topo{
-        display: flex;
-        flex-wrap: wrap;}}
+    .navegacao{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

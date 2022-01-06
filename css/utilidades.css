@@ -1,8 +1,7 @@
 .sections{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: center ;
-    align-items: center;
+    place-items: center ;
     gap:10px;}
 .texto-grande{
         font-size: 1.8rem;}
@@ -12,6 +11,9 @@
         font-size: 1.3rem;}
 .texto-medio span{
         color: var(--salmao-1);}
+.titulo-secoes{
+        text-align: center;
+        margin:20px;}
 
 @media(max-width:800px){
     .texto-grande{
@@ -19,3 +21,8 @@
     .texto-medio{
         font-size: 1rem;}
         }
+@media(max-width:400px){
+        main .sections{
+            grid-template-columns: 1fr;
+        }
+    }

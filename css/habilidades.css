@@ -1,0 +1,33 @@
+#habilidades{
+    position: relative;
+}
+.lista-habilidades{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+    gap: 80px;
+    width: 100%;
+    margin: 120px 0px;
+}
+.item-habilidades img{
+    width: 5rem;
+
+}
+.item-habilidades ul{
+    display: none;
+}
+.item-habilidades img:hover + ul, .item-habilidades img:focus + ul{
+    display: block;
+}
+.lista-item-habilidades{
+    list-style-type: none;
+    position: absolute;
+}
+.lista-item-habilidades li{
+    text-transform: uppercase;
+}
+.lista-item-habilidades span{
+    color: var(--salmao-1);
+}

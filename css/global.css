@@ -13,13 +13,11 @@ body{
     font-family: roboto-medium;
     position: relative;
     height: 1200px;
-}
-.org{
     display: grid;
-    gap:60px;
-}
+    gap:40px;}
 img{
     display: block;
-    width: 100%;
+    width: 100%;}
+footer{
+    height: 200px;
 }
-
