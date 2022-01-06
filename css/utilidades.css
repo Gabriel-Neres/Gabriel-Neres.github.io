@@ -1,0 +1,21 @@
+.sections{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center ;
+    align-items: center;
+    gap:10px;}
+.texto-grande{
+        font-size: 1.8rem;}
+.texto-grande span{
+        color: var(--salmao-1);}
+.texto-medio{
+        font-size: 1.3rem;}
+.texto-medio span{
+        color: var(--salmao-1);}
+
+@media(max-width:800px){
+    .texto-grande{
+        font-size: 1.3rem;}
+    .texto-medio{
+        font-size: 1rem;}
+        }

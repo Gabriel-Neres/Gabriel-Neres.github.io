@@ -2,7 +2,9 @@ header{
     background: var(--azul-3);
     width: 100%;
     box-sizing: border-box;
-    font-size: 16px;}
+    font-size: 16px;
+    position: fixed;
+    top: 0;}
 
 .barra-topo{
     display: grid;
@@ -41,7 +43,8 @@ header{
 
 @media (max-width:700px){
     .barra-topo{
-        grid-template-columns: 1fr;}}
+        grid-template-columns: 1fr;}
+    }
         
 @media (max-width:400px){
     header{

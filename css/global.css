@@ -10,5 +10,16 @@
 body{
     background: var(--azul-1);
     color:var(--cor-principal);
-    font-family: roboto-medium;}
+    font-family: roboto-medium;
+    position: relative;
+    height: 1200px;
+}
+.org{
+    display: grid;
+    gap:60px;
+}
+img{
+    display: block;
+    width: 100%;
+}
 
