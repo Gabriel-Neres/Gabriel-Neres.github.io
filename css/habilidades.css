@@ -1,5 +1,6 @@
 #habilidades{
     position: relative;
+    
 }
 .lista-habilidades{
     position: relative;
@@ -7,12 +8,13 @@
     flex-wrap: wrap;
     list-style-type: none;
     justify-content: center;
-    gap: 80px;
+    gap: 60px;
     width: 100%;
     margin: 120px 0px;
 }
 .item-habilidades img{
     width: 5rem;
+    margin-top: 20px;
 }
 .item-habilidades img:hover{
     cursor: pointer;
@@ -29,6 +31,7 @@
 }
 .lista-item-habilidades li{
     text-transform: uppercase;
+    font-size: 0.8rem;
 }
 .lista-item-habilidades span{
     color: var(--salmao-1);
