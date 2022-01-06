@@ -13,7 +13,9 @@
 }
 .item-habilidades img{
     width: 5rem;
-
+}
+.item-habilidades img:hover{
+    cursor: pointer;
 }
 .item-habilidades ul{
     display: none;
