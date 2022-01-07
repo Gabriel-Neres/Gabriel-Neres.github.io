@@ -43,7 +43,7 @@ header{
     --cor-principal:var(--salmao-1);}
 
 
-@media (max-width:700px){
+@media (max-width:750px){
     .barra-topo{
         grid-template-columns: 1fr;}
     }

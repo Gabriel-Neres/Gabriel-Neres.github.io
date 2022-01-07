@@ -1,7 +1,3 @@
-#habilidades{
-    position: relative;
-    
-}
 .lista-habilidades{
     position: relative;
     display: flex;
@@ -35,4 +31,12 @@
 }
 .lista-item-habilidades span{
     color: var(--salmao-1);
+}
+@media(max-width:450px){
+    .item-habilidades img{
+        width: 3rem;
+    }
+    .lista-item-habilidades li{
+        font-size: 0.6rem;
+    }
 }
