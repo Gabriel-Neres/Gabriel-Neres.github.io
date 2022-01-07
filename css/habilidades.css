@@ -6,7 +6,7 @@
     justify-content: center;
     gap: 60px;
     width: 100%;
-    margin: 120px 0px;
+    margin: 100px 0px;
 }
 .item-habilidades img{
     width: 5rem;
@@ -31,6 +31,24 @@
 }
 .lista-item-habilidades span{
     color: var(--salmao-1);
+}
+.projetos{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+.projetos a{
+    background: var(--azul-2);
+    padding: 10px;
+    width: 6rem;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: var(--azul-1);
+}
+.projetos a:hover{
+    background: var(--salmao-1);
 }
 @media(max-width:450px){
     .item-habilidades img{
