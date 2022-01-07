@@ -4,55 +4,43 @@ header{
     box-sizing: border-box;
     font-size: 16px;
     position: absolute;
-    top: 0;
-    }
-
+    top: 0;}
 .barra-topo{
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
     align-content: center;
     place-items: center;}
-
 .navegacao{
     list-style-type: none;
     display: flex;
     gap:20px;}
-
 .item-navegacao{
     color:var(--cor-principal);
     text-transform: uppercase;
     text-decoration: none;}
-
 .redes{
     display: flex;
     gap:20px;
     list-style-type: none;
     align-items: center;}
-
 .gradient{
     width: 100%;
     box-sizing: border-box;
     height: 20px;
-    background-image: linear-gradient(var(--azul-3), var(--azul-1));
-    }
+    background-image: linear-gradient(var(--azul-3), var(--azul-1));}
 .logo{
-    padding: 5px 0px;
-}
+    padding: 5px 0px;}
 .logo:hover,.item-navegacao:hover,.item-redes:hover{
-    --cor-principal:var(--salmao-1);}
-
+    --cor-principal:var(--salmao-1);
+    transition: .3s;}
 
 @media (max-width:750px){
     .barra-topo{
-        grid-template-columns: 1fr;}
-    }
-        
+        grid-template-columns: 1fr;}}
 @media (max-width:400px){
     header{
         font-size: 12px;}
     .navegacao{
         flex-wrap: wrap;
-        justify-content: center;
-    }
-}
+        justify-content: center;}}
