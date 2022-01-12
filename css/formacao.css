@@ -1,5 +1,6 @@
-.texto-formcao{
+.texto-formacao{
     display: grid;
     grid-template-columns: 1fr;
-    gap:20px;
+    align-content: space-around;
+    height: 100%;
 }

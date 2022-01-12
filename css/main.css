@@ -2,7 +2,7 @@
     display: grid;
     align-content: center;
     margin-top:80px;
-    padding:0px 20px;
+    
 }
 .apresentacao{
     width: 100%;
@@ -11,7 +11,7 @@
     align-content: center;
     justify-content: center;}
 
-@media(max-width:700px){
+@media(max-width:750px){
     .main{
         margin-top:200px ;
 }}

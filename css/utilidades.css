@@ -2,27 +2,31 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center ;
-    gap:10px;}
+    gap:10px;
+    padding:0px 20px;}
 .texto-grande{
-        font-size: 1.8rem;}
+        font-size: 3rem;}
 .texto-grande span{
         color: var(--salmao-1);}
 .texto-medio{
-        font-size: 1.3rem;}
+        font-size: 1.6rem;}
 .texto-medio span{
         color: var(--salmao-1);}
 .titulo-secoes{
         text-align: center;
+        font-size: 3.2rem;
         margin:20px;}
-
-@media(max-width:800px){
+@media(max-width:850px){
     .texto-grande{
-        font-size: 1.3rem;}
+        font-size: 1.8rem;}
     .texto-medio{
-        font-size: 1rem;}
+        font-size: 1.3rem;}
         }
-@media(max-width:400px){
-        main .sections{
+    .titulo-secoes{
+        font-size: 2rem;
+        }
+@media(max-width:500px){
+    .sections{
             grid-template-columns: 1fr;
         }
     }
