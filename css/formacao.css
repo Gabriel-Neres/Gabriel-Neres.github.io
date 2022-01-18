@@ -1,6 +1,20 @@
 .texto-formacao{
     display: grid;
     grid-template-columns: 1fr;
-    align-content: space-around;
+    align-content: center;
     height: 100%;
 }
+.sec_form{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    place-items: center ;
+    gap:10px;
+    padding:0px 20px;}
+.foto-formacao{
+    height: 350px;
+}
+@media(max-width:500px){
+    .sec_form{
+            grid-template-columns: 1fr;
+        }
+    }
