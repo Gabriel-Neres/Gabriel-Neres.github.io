@@ -4,9 +4,15 @@
     flex-wrap: wrap;
     list-style-type: none;
     justify-content: center;
-    gap: 60px;
+    gap: 80px;
     width: 100%;
     margin: 100px 0px;
+}
+.item-habilidades .item-habilidades_1:hover{
+    cursor: pointer;
+}
+.item-habilidades ul{
+    display: none;
 }
 .item-habilidades_1{
     width: 6rem;
@@ -18,12 +24,6 @@
     align-items: center;
     border-radius: 8px;
     background-image: linear-gradient(var(--salmao-1), var(--salmao-2));}
-.item-habilidades .item-habilidades_1:hover{
-    cursor: pointer;
-}
-.item-habilidades ul{
-    display: none;
-}
 .item-habilidades_1:hover + ul, .tem-habilidades_1:focus + ul{
     display: block;
 }
@@ -31,8 +31,9 @@
     background: var(--salmao-2);
 }
 .lista-item-habilidades{
-    list-style-type: none;
+    list-style-type:none;
     position: absolute;
+    margin-top: 5px;
 }
 .lista-item-habilidades li{
     text-transform: uppercase;
