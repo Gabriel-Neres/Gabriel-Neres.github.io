@@ -54,11 +54,13 @@
     text-decoration: none;
     text-align: center;
     margin-top: 10px;
+    border: 2px solid var(--azul-2);
     border-radius: 4px;
     color: var(--azul-1);
 }
 .projetos a:hover{
-    background: var(--salmao-1);
+    background: var(--azul-1);
+    color: var(--azul-2);
     transition: .3s;
 }
 @media(max-width:450px){

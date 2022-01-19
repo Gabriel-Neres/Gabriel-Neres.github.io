@@ -1,7 +1,7 @@
-.rodapé{
+.rodape{
     background: var(--azul-3);
 }
-.rodapé div img{
+.rodape div img{
     width: 2rem; 
 }
 .contatos{
@@ -14,6 +14,7 @@
 .item-contatos{
     background: var(--azul-2);
     padding: 20px;
+    border: 2px solid var(--azul-2);
     border-radius: 8px;
     display: grid;
     justify-items: center;
@@ -24,7 +25,9 @@
     padding: 10px 0px;
 }
 .item-contatos:hover{
-    background: var(--salmao-1);
+    background: var(--azul-3);
+    color: var(--azul-2);
+    transition: .3s;
 }
 @media(max-width:400px){
     .item-contatos{
