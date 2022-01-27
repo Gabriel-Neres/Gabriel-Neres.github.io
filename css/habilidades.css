@@ -1,5 +1,4 @@
 .lista-habilidades{
-    position: relative;
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;

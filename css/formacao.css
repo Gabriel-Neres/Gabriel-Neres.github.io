@@ -4,7 +4,7 @@
     align-content: center;
     height: 100%;
 }
-.sec_form{
+.sec-form{
     display: grid;
     grid-template-columns: 30% 70%;
     place-items: center ;
@@ -14,7 +14,7 @@
     height: 350px;
 }
 @media(max-width:500px){
-    .sec_form{
+    .sec-form{
             grid-template-columns: 1fr;
         }
     }
